@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const Display=()=>{
+    alert("Clicked on Button");
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +20,8 @@ function App() {
         >
           CIIT Training Institute
         </a>
+        <br/>
+        <button onClick={Display}>Display</button>
       </header>
     </div>
   );
